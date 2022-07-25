@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.profile {
+    width: 95px;
+    margin: 0 auto;
+}
+
+.profilePic {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: -40px;
+}
+
+.cover {
+    width: 100%;
+    height: 25vh;
+}
+
+.card{
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+    height: 70vh;
+    width: 25%;
+    box-shadow: 2px 0 20px 1px rgba(0, 0, 0, 0.8)
+}
+
+.ss{
+    align-content: center;
+}
+.name{
+    font-size: small;
+    font-family: sans-serif;}
+    
+
+    .ff{
+        border-radius: 10px;
+        background-color:rgb(247, 86, 86);
+        color: #fff;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        border: solid white;
+        font-size: 12px;
+    }
+
+    .ss{
+        text-align: center;
+    }
+   
+    .card:hover{
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes shake{
+        0%{transform: translate(1px,1px) rotate(0deg);}
+        10% {transform: translate(-1px, 2px) rotate(-1deg);
+        }
+    }
+    
